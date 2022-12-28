@@ -1,0 +1,37 @@
+p:first-letter{
+    color: blue;
+    background-color: yellow;
+    font-size: 20px;
+}
+p:first-line{
+    color: red;
+    background-color: yellow;
+    font-size: 18px;
+}
+div:before{
+    content:"web ";
+}
+div:after{
+    content: " Hoşgeldiniz";
+}
+p:last-child{
+    color: blue;
+    background-color: rgb(174, 153, 153);
+}
+/*Paragraftan önce*/
+p:before{
+    content: url(tik.png);
+}
+/*Paragraftan sonra*/
+p:after{
+    content: "----------->";
+}
+p{
+    font-size: 20px;
+}
+/* even çift sayılı
+Odd tek sayılı çocukları kapsar*/
+p:nth-child(odd){
+    background-color: green;
+    color: yellow;
+}

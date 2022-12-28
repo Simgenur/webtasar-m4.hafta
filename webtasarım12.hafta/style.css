@@ -1,0 +1,98 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: black;
+}
+
+.one{
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: aqua;
+    border: solid 2px;
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: aquamarine;
+    border: solid 3px;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 2/5;
+    background-color: azure;
+    border: solid 6px;
+}
+
+.four{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: blueviolet;
+    border: solid 7px;
+}
+
+.five{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: bisque;
+    border: solid 8px;
+}
+
+.six{
+    grid-column: 3;
+    grid-row: 4;
+    background-color: blanchedalmond;
+    border: solid 5px;
+}
+
+.grid-container{
+    display: inline-grid;
+    border: solid blue 10px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.grid-item{
+    background-color: aqua;
+    border: solid 1px black;
+}
+
+.bir{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.iki{
+    grid-column: 1 / 3;
+}
+
+.üç{
+    
+}
+
+.dört{
+   
+}
+
+.beş{
+    
+}
+
+.altı{
+    
+}
+
+.yedi{
+
+}
+
+.sekiz{
+
+}
+
+.dokuz{
+
+}

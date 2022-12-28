@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex; /*görünüme esneklik vermek için kullanılır.*/
+    flex-direction: row;
+    /*flex-wrap: nowrap;*/ /*yönünü belirlemek için kullanılır.*/
+    flex-flow: row wrap;
+}
+
+.container div{
+    border: 1px solid red;
+    width: 250px;
+    height: 80px;
+}

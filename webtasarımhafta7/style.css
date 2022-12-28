@@ -1,0 +1,19 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+p {
+
+border: 1px solid rebeccapurple;
+padding:10px;
+margin: 50px;
+}
+
+
+h1{
+  text-decoration: underline;
+  color: violet;
+  border: 2px dashed darkred;
+}
